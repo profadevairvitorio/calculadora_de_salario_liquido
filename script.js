@@ -1,9 +1,9 @@
 function calculateNetSalary() {
     const grossSalary = parseFloat(document.getElementById('grossSalary').value);
-    const specialDiscounts = parseFloat(document.getElementById('specialDiscounts').value);
+    const specialDiscounts = parseFloat(document.getElementById('specialDiscounts').value) || 0;
 
-    if (isNaN(grossSalary) || isNaN(specialDiscounts)) {
-        document.getElementById('result').innerText = 'Por favor, insira valores válidos.';
+    if (isNaN(grossSalary)) {
+        document.getElementById('result').innerText = 'Por favor, insira um valor válido para o salário bruto.';
         return;
     }
 
