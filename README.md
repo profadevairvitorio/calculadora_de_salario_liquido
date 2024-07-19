@@ -3,6 +3,8 @@
 Este projeto é uma aplicação web simples que calcula o salário líquido com base no salário bruto e nos descontos aplicáveis. A calculadora considera os descontos de INSS e IRPF de acordo com as faixas salariais, além de permitir a inclusão de descontos especiais.
 
 ![img.png](img.png)
+
+Teste agora mesmo: https://profadevairvitorio.github.io/calculadora_de_salario_liquido/
 ## Funcionalidades
 
 - **Entrada de Dados**: Salário bruto e descontos especiais.
